@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7180672084011013671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2120220085222799236, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120220085222799236, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: <isKillable>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120220085222799236, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: <isSelectable>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163656, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_Name
+      value: Planet
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367488612124163700, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2120220085222799236, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+--- !u!1 &1709562152744069231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8367488612124163656, guid: 0688c3e74aaa5224f98463527df89de0, type: 3}
+  m_PrefabInstance: {fileID: 7180672084011013671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3995053085367562353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709562152744069231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff2150477d18b9468fd4da742793537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lifePoints: 0
+  _fullName: Unknown
+  <isSelectable>k__BackingField: 1
+  <isKillable>k__BackingField: 1
+  _size: 1
+  _rotationSpeed: 0
+  _resourcesCount: 0
+  _resourcesRate: 0
+  _resourcesLimit: 0
+  _resourcesIncrementInterval: 0
