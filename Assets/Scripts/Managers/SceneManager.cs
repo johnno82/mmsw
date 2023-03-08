@@ -40,7 +40,7 @@ public class SceneManager : MonoBehaviour
         this.playerManager.OwnPlanet(homePlanet);
         
 
-        for(int i = 0; i < 5; i++)
+        for(int i = 0; i < 1; i++)
             CreateSpaceShips(homePlanet.transform.position);
 
         for (int i = 0; i < 5; i++)

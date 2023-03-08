@@ -73,6 +73,13 @@ namespace Assets.Scripts.Entities.Steering
                 steering.angular = -this.Entity.rotation * this.Entity.maxAngularAcceleration;
             }
 
+            if (distance < _slowDownRadius * 1.5f
+                && this.Entity.velocity == Vector3.zero
+                && steering.angular != 0f)
+            {
+                return steering;
+            }
+
             if (distance > _slowDownRadius)
             {                
                 _currentSpeed = Mathf.Lerp(_initialSpeed, this.Entity.maxSpeed, _timeTraveled / _timeToMaxSpeed);
